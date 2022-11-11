@@ -1,0 +1,32 @@
+.imgPrimer {
+  width: 250px;
+  height: 300px;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.homeContent {
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 10px 0 10px 0;
+}
+#homeImg {
+  width: 500px;
+  height: 450px;
+}
+
+@media all and (max-width: 510px) {
+  #homeImg {
+    width: 99%;
+    height: auto;
+  }
+  #homeText {
+    width: 300px;
+  }
+}
